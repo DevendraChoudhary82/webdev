@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: brown;
+            background-color: black;
+        }
+        .para{
+            background-color: blue;
+        }
+        .a{
+            color: rgb(241, 36, 98);
+        }
+        #p{
+            color: blueviolet;
+            font-size: 30px;
+        }
+        div p{
+            background-color: chartreuse;
+        }
+        div > p{
+            color: coral;
+        }
+        .para,h3,#p{
+            font-size: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Element selector </h1>
+    <p class="para">class selector - to access the class use to (.) </p>
+    <p class="para">same class can be applied on multiple elemen</p>
+    <p class="para a">we can multiple classes on same element</p>
+    <p id="p">Id selector - to select an id use (hase) before</p>
+    <p class="a">Id must be unique for every element</p>
+    <h3>combinator selector</h3>
+    <div>
+        <h3>
+            <p>div - h3 - p</p>
+        </h3>
+        <p>paragraph inside div</p>
+    </div>
+
+
+</body>
+</html>
